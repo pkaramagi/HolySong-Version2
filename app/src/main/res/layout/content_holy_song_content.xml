@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HolySongSingle"
+    tools:showIn="@layout/activity_holy_song_content">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_panel">
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:id="@+id/webview"
+            />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottom_panel"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:background="@color/colorPrimaryBottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="8dp"
+        android:layout_alignParentBottom="true">
+            <SeekBar
+                android:layout_width="200dp"
+                android:id="@+id/seek"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:layout_width="32dp"
+                    android:id="@+id/watchman_player_play"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_play" />
+                <ImageButton
+                    android:layout_width="32dp"
+                    android:id="@+id/watchman_player_pause"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_pause"/>
+                <ImageButton
+                    android:id="@+id/watchman_player_stop"
+                    android:layout_width="32dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_stop"/>
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

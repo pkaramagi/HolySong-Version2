@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">HolySongs</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_holy_songs">HolySongs</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_holy_song_content">HolySongContent</string>
+
+    <string-array name="holysong_english_array">
+        <item> Blessing of Glory </item>
+        <item> Grace of the Holy Garden </item>
+        <item> New Song of Inspiration </item>
+        <item> Garden of Restoration </item>
+        <item> Spring Song of Eden </item>
+        <item> Song of Victors </item>
+        <item> Song of the Spring Breeze </item>
+        <item> Oh, My Little Lambs </item>
+        <item> The Lord Has Come </item>
+        <item> My Offering </item>
+        <item> Unite Into One </item>
+        <item> Song of the Young People </item>
+        <item> Call to Sacrifice </item>
+        <item> The Principle Youth March </item>
+        <item> March of the New Age </item>
+        <item> Song of the Heavenly Soldiers </item>
+        <item> Unified Soldiers </item>
+        <item> Light in the East </item>
+        <item> Song of Victory </item>
+        <item> My Promise </item>
+        <item> Suffering </item>
+        <item> New Life </item>
+        <item> Suffering Jesus </item>
+        <item> Suffering Heart </item>
+        <item> Heart of the Father </item>
+        <item> Pledge </item>
+        <item> The Father\'s Dwelling Place </item>
+        <item> Song of the Garden </item>
+        <item> Shining Fatherland </item>
+        <item> He Has Called Me </item>
+        <item> O, My Child Come Home Again </item>
+        <item> My Cross </item>
+        <item> O Come, My Lord </item>
+        <item> By the Spring of Life </item>
+        <item> When I Behold the Lord </item>
+        <item> Shining Fatherland </item>
+        <item> Song of the Banquet </item>
+        <item> Our Forefather </item>
+        <item> Light of Grace </item>
+        <item> Tan Shim Ga </item>
+        <item> Urie So Wonun Tongil </item>
+    </string-array>
+
+    <string-array name="holysong_french_array">
+        <item>La Lumière de la Gloire</item>
+        <item>Grâce du Jardin Sacré</item>
+        <item>Chant de l\'Inspiration Nouvelle </item>
+        <item>Le Jardin de la Restauration </item>
+        <item>Le Printemps de l\'Eden </item>
+        <item>Chant des Vainqueurs </item>
+        <item>La Brise Printanière </item>
+        <item>O, Mes Doux Agneaux </item>
+        <item>Il est revenu </item>
+        <item>Mon Offrande</item>
+        <item>Construisons l\'Unité </item>
+        <item>Chant de la Jeunesse </item>
+        <item>L\'Appel au Sacrifice </item>
+        <item>Marche de la Jeunesse </item>
+        <item>March of the New Age </item>
+        <item>Chant des Soldats du Ciel </item>
+        <item>Les Soldats de l\'Unification </item>
+        <item>La Lumière de l\'Orient </item>
+        <item>Chant de la Victoire </item>
+        <item>Ma Promesse</item>
+        <item>Souffrance </item>
+        <item>Vie Nouvelle </item>
+        <item>Suffering Jesus </item>
+        <item>Suffering Heart </item>
+        <item>Le Cœur du Père</item>
+        <item>Serment</item>
+        <item>Là où est notre Père</item>
+        <item>Le Seigneur vient dans Son Jardin</item>
+        <item>La Patrie Rayonnante</item>
+        <item>L\'Appel du Seigneur</item>
+        <item>Reviens vite O Mon Enfant</item>
+        <item>Ma Croix</item>
+        <item>O viens, O Seigneur</item>
+        <item>Près de la Source de Vie</item>
+        <item>Quand je contemple le Seigneur</item>
+        <item>Jour de Gloire</item>
+        <item>Chant du Banquet</item>
+        <item>Nos Aïeux </item>
+        <item>Dieu est Amour</item>
+        <item>Tan Shim Ga</item>
+        <item>Unité</item>
+    </string-array>
+</resources>
